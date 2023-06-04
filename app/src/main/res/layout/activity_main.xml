@@ -27,12 +27,12 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
         android:text="Welcome to\nmy Cool Amazing App"
         android:textColor="@color/purple"
+        android:textSize="30sp"
         android:textStyle="bold"
-        android:textSize="25sp"
-        android:layout_marginTop="32dp"
-        android:layout_marginStart="32dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
@@ -40,12 +40,12 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="I design cool amazing UIs for mobile projects\nready for android and ios.Bring deals."
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:textColor="@color/blue"
         android:layout_marginStart="32dp"
         android:layout_marginTop="10dp"
+        android:text="I design cool amazing UIs for mobile\n projects ready for android and ios.\nBring deals."
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
